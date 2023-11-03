@@ -19,10 +19,10 @@ global.TIMEZONE = 'Asia/Colombo'
 global.website = 'https://github.com/SamPandey001/Secktor-Md' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/daa9647f2139e462e4316.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'SHENU-QUEEN-MD 🧚' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'CYBER-THUSHAN' : process.env.OWNER_NAME,
-  ownernumber: process.env.OWNER_NUMBER === undefined ? '94710109956' : process.env.OWNER_NUMBER,
-  sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
+  botname:   process.env.BOT_NAME === undefined ? 'BIG-KALA-MD 🧚' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'BIG-KALA' : process.env.OWNER_NAME,
+  ownernumber: process.env.OWNER_NUMBER === undefined ? '7047534239' : process.env.OWNER_NUMBER,
+  sessionName:  process.env.SESSION_ID === undefined ? true : process.env.SESSION_ID,
   author:  process.env.PACK_INFO.split(";")[0] === undefined ? '🚨🧚‍♀️𝘚𝘏𝘌𝘕𝘜 𝘘𝘜𝘌𝘌𝘕:𝘊𝘠𝘉𝘌𝘙-𝘛𝘏𝘜𝘚𝘏𝘈𝘕' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   packname:  process.env.PACK_INFO.split(";")[1] === undefined ? '𝗦𝗛𝗘𝗡𝗨 𝗤𝗨𝗘𝗘𝗡 𝗠𝗗' : process.env.PACK_INFO.split(";")[1],	
